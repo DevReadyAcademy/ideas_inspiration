@@ -103,7 +103,7 @@ export default function Home() {
             </p>
 
             {/* Card stack */}
-            <div className="relative w-full max-w-md h-[400px] flex items-center justify-center">
+            <div className="relative w-full max-w-md h-[60vh] max-h-[600px] min-h-[300px] flex items-center justify-center">
               {nextPost && <SwipeCard key={nextPost._id} post={nextPost} onSwipe={() => {}} isTop={false} />}
               {currentPost && (
                 <SwipeCard key={currentPost._id} post={currentPost} onSwipe={handleSwipe} isTop={true} />
