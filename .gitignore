@@ -28,6 +28,9 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# generated post data (local only, not committed)
+scripts/posts-data.json
+
 # vercel
 .vercel
 
